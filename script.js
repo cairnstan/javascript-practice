@@ -17,3 +17,14 @@ var loopCondition = false;
 do {
 	console.log("I'm gonna stop looping 'cause my condition is " + loopCondition + "!");
 } while (loopCondition);
+
+//another do while loop
+var loopStandard = false;
+var getToDaChoppa = function(){
+  // Write your do/while loop here!
+  do {
+      console.log("Look at me looping through " + loopStandard + " all the way to the bank!");
+  } while (loopStandard);
+};
+
+getToDaChoppa();
